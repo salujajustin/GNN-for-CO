@@ -22,8 +22,8 @@ This step can be used to create a *Pipfile* on your local machine that can be tr
 ```bash
 pip install pipenv 
 ```
-> If you run into `pipenv: command not found` run the following:
-``bash
+> If you run into `pipenv: command not found` run the following:  
+```bash
 sudo -H pip install -U pipenv
 ```
 
