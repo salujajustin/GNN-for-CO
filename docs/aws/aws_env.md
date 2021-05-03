@@ -22,6 +22,10 @@ This step can be used to create a *Pipfile* on your local machine that can be tr
 ```bash
 pip install pipenv 
 ```
+> If you run into `pipenv: command not found` run the following:
+``bash
+sudo -H pip install -U pipenv
+```
 
 2. Install Python 3.8 
 > this is necessary when trying to run the *Attention, Learn to Solve Routing Problems!* [paper](https://arxiv.org/pdf/1803.08475.pdf) [code](https://github.com/wouterkool/attention-learn-to-route). 
