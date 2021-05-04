@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 # @author: Justin Saluja
 # @description: Deep Policy Dynamic Programming script inspired by Kool's dpdp README, adapted for AWS
 
@@ -13,6 +13,9 @@ sudo apt install python3.8
 
 
 ## INSTALL ENVIRONMENT ##
+
+# Inform bash of conda
+source ~/anaconda3/etc/profile.d/conda.sh
 
 # Create environment named 'dpdp' and activate
 conda create -n dpdp python=3.8 scipy anaconda -y
