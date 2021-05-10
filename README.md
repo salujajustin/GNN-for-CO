@@ -1,7 +1,8 @@
 # GNN-for-CO
 
-A repository for Graph Neural Networks for Combinatorial Optimization.
+This repositorty contains code for the testing, verification and reimplimentation for [Attention, Learn to Solve Routing Problems!](https://arxiv.org/abs/1803.08475), [An Efficient Graph Convolutional Network Technique for the Travelling Salesman Problem](https://arxiv.org/abs/1906.01227), and [Deep Policy Dynamic Programming](https://arxiv.org/abs/2102.11756)
 
+![pipeline](res/tsp.png)
 
 
 ### Deep Policy Dynamic Programming
