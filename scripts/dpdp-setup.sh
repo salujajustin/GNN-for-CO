@@ -8,10 +8,6 @@ set -e
 # Clone repository 
 git clone https://github.com/wouterkool/dpdp.git && cd dpdp/
 
-# Install Python 3.8
-sudo apt install python3.8
-
-
 ## INSTALL ENVIRONMENT ##
 
 # Inform bash of conda
