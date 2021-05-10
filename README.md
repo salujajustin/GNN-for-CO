@@ -19,6 +19,9 @@ wget https://raw.githubusercontent.com/salujajustin/GNN-for-CO/main/scripts/dpdp
 # Change permissions and run
 chmod +x dpdp-setup.sh
 ./dpdp-setup.sh
+
+# Activate environment
+conda activate dpdp
 ```
 
 
