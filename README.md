@@ -4,6 +4,30 @@ This repositorty contains code for the testing, verification and reimplimentatio
 
 ![pipeline](res/tsp.png)
 
+## Concorde TSP Solver
+
+The Concorde TSP Solver can be installed using the following script referenced from [attention-learn-to-route](https://github.com/wouterkool/attention-learn-to-route/blob/master/problems/tsp/install_concorde.sh):
+
+```bash
+bash concorde_tsp/install_concorde.sh
+```
+In accordance with the accompanying wrappers, Concorde should be placed at the root directory. The validation data on which Concorde will run must be fetched prior to running the script by following the instructions in ```docs/data/downloading_val_data.md```. These data must be placed within the ```concorde_tsp``` directory.
+
+The following Python dependencies must be installed:
+- pickle
+- sys
+- os
+- numpy
+- tqdm 
+- matplotlib.pyplot
+
+Then, the Concorde TSP benchmarking and plotting routine can be run in Python 3.8.5 as follows:
+```
+mkdir concorde_data
+python concorde_tsp/concorde_format_data.py
+```
+This wrapper will first generate ```.tsp``` files in the directory ```concorde_data```. Then, Concorde will be run on all data to output ```.log``` files containing the runtime history and ```.sol``` files containing the optimal tours. Finally, the tours will be consolidated and summarized, and a plot will be generated.
+
 ### Greedy Search
 
 The greedy search algorithm benchmarking and plotting routine can be run in Python 3.8.5 as follows:
