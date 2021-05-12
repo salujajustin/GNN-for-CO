@@ -46,6 +46,29 @@ The following Python dependencies must be installed:
 - matplotlib
 - time
 
+###GCN model
+The Custom GCN model based on Joshi et al. 2019 can be run through the notebook provided, 'GCN/Graph_Conv_Network.ipynb'. This notebook is compatible to be run on Google Colab. Simple execution of initial cells will setup the required environment with version specific packages and also download the minimum required data to generate the input graphs
+
+The following Python dependencies must be installed:
+- Torch
+- numpy 
+- dgl
+- os
+- pickle5
+
+TO DO: incorporate the label edge weight matrix for loss computation in train loop to be consistent with Joshi et al.
+
+
+
+###Heatmap processing to get optimal tour
+The TSP plotting routine for GCN can be run in Python 3.8.5 as follows:
+```python GCN/plot_tsp.py NUM_SAMPLES 'path/to/TSP' 'path/to/heatmap' TSP_SIZE BEAM_SIZE ```
+NUM_SAMPLES (int) is the number of graphs in the dataset (eg. 10000)
+'path/to/TSP' (str) is the path to the pkl file containing the graphs(eg. 'Data/data.pkl')
+'path/to/heatmap' (str) is the path to the pkl file containing corresponding heat maps (eg. 'Data/maps.pkl')
+TSP_SIZE (int) is the number of nodes in each graph (eg. 100)
+BEAM_SIZE (int) is the beam size of beam search algorithm (eg. 1280)
+
 ### Deep Policy Dynamic Programming
 
 Run the following to setup a the environment on AWS Deep Learning AMI (Ubuntu 18.04) Version 43.0 : 
