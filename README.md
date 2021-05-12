@@ -4,7 +4,7 @@ This repositorty contains code for the testing, verification and reimplementatio
 
 ![pipeline](res/tsp.png)
 
-## Concorde TSP Solver
+### Concorde TSP Solver
 
 The Concorde TSP Solver can be installed using the following script referenced from [attention-learn-to-route](https://github.com/wouterkool/attention-learn-to-route/blob/master/problems/tsp/install_concorde.sh):
 
