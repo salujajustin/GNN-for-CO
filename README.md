@@ -20,6 +20,7 @@ The following Python dependencies must be installed:
 - numpy
 - tqdm
 - matplotlib
+- time
 
 ### Deep Policy Dynamic Programming
 
