@@ -4,6 +4,22 @@ This repositorty contains code for the testing, verification and reimplimentatio
 
 ![pipeline](res/tsp.png)
 
+### Greedy Search
+
+The greedy search algorithm benchmarking and plotting routine can be run in Python 3.8.5 as follows:
+```bash
+python greedy_search/greedy_search.py
+```
+
+The validation data on which greedy search will run must be fetched prior to running the script by following the instructions in ```docs/data/downloading_val_data.md```.
+
+The following Python dependencies must be installed:
+- pickle
+- sys
+- os
+- numpy
+- tqdm
+- matplotlib
 
 ### Deep Policy Dynamic Programming
 
