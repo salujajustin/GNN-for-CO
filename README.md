@@ -85,7 +85,7 @@ sudo apt install python3.8
 wget https://raw.githubusercontent.com/salujajustin/GNN-for-CO/main/scripts/gnn-setup.sh
 
 # Change permissions and run
-chmod +x dpdp-setup.sh
+chmod +x gnn-setup.sh
 ./dpdp-setup.sh
 
 # Activate environment
