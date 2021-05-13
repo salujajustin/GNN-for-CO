@@ -90,6 +90,10 @@ chmod +x gnn-setup.sh
 
 # Activate environment
 conda activate dpdp
+
+# Run
+cd GNN-for-CO/deep-policy-DP
+./run.sh
 ```
 For runtime code used in Final Report:
 ```bash
