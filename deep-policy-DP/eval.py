@@ -21,7 +21,8 @@ from utils.datasets import HeatmapDataset, TSP
 def eval_tsp(data_path, beam, args):
 
     problem = TSP
-    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    use_cuda = False
+    device = torch.device("cuda" if torch.cuda.is_available() and use_cuda else "cpu")
 
     dataset = problem.make_dataset(filename=data_path, num_samples=args.val_size, offset=args.offset)   
     dataset = pack_heatmaps(dataset, args)
