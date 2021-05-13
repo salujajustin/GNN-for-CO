@@ -6,7 +6,7 @@
 set -e
 
 # Clone repository 
-git clone https://github.com/salujajustin/GNN-for-CO.git && cd deep-policy-DP/
+git clone https://github.com/salujajustin/GNN-for-CO.git && cd GNN-for-CO/deep-policy-DP/
 
 ## INSTALL ENVIRONMENT ##
 
@@ -68,6 +68,6 @@ cd results/
 mkdir -p tsp100_validation_seed4321/heatmaps && gdown --id 14sc6E1OdOBB8ZuCpaWltdBpdD8-g8XYK --output tsp100_validation_seed4321/heatmaps/heatmaps_tsp100.pkl
 mkdir -p tsp100_test_seed1234/heatmaps && gdown --id 1fSU39SzUoNlSUJo7qOqe7eL45Wak00vH --output tsp100_test_seed1234/heatmaps/heatmaps_tsp100.pkl
 
-cd ../..
+cd ../
 
 
