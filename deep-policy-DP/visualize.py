@@ -70,7 +70,8 @@ for i in range(start, end):
 
     if args.problem == 'tsp':
         # TODO
-        computed_cost = plot_tsp(ax, instance, solution, heatmap, adj, title=f'Instance {i}')
+        #  computed_cost = plot_tsp(ax, instance, solution, heatmap, adj, title=f'Instance {i}')
+        computed_cost = plot_tsp(ax, instance, solution, heatmap, adj, title='TSP')
         if solution is not None:
             assert np.allclose(cost, computed_cost), "Difference between saved cost {} and computed cost {} of solution! Are you using the right data/solutions?".format(cost, computed_cost)
             

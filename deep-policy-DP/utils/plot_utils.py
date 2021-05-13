@@ -62,6 +62,6 @@ def plot_tsp(ax1, instance, solution, heatmap, mask, markersize=5, title="TSP"):
     )
 
     ax1.plot(xs, ys, 'o')
-    ax1.set_title('{}, {} nodes, total distance {:.3f}'.format(title, len(instance), total_dist))
+    ax1.set_title('{}, {} nodes, total distance {:.3f}'.format(title, len(instance), total_dist), fontsize=20)
 
     return total_dist
