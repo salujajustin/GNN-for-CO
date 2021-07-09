@@ -68,8 +68,11 @@ scp -i {{/path/my-key-pair}}.pem {{/path/my-file}}  {{Instance User Name}}@{{Pub
 
 
 
-## Miscellaneous 
 
+## Switching Cuda versions
+[Using the Deep Learning Base AMI](https://docs.aws.amazon.com/dlami/latest/devguide/tutorial-base.html)
+
+## Miscellaneous 
 **TODO Format Later for below**
 
 For the attention paper: 
