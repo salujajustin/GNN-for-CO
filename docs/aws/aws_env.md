@@ -75,6 +75,10 @@ scp -i {{/path/my-key-pair}}.pem {{/path/my-file}}  {{Instance User Name}}@{{Pub
 ## Miscellaneous 
 **TODO Format Later for below**
 
+https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-attaching-volume.html
+https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-using-volumes.html
+https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/add-instance-store-volumes.html
+
 For the attention paper: 
  env shows CUDA11.0, which is not shipped in the 1.8.0 binaries (10.2 and 11.1 are used)
  so pytorch version 1.7 will be installed - it works fine 
